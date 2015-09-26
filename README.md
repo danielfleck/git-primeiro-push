@@ -29,3 +29,20 @@ Passos para criar o repositório e executar o primeiro push
     git push origin master
     ```
 
+Passos para criar uma tag
+-------------------------
+
+1. Fazer checkout no commit referente a tag que deve ser criada
+    ```shell
+    git checkout master
+    ```
+
+2. Criar a tag
+    ```shell
+    git tag 0.1.0
+    ````
+
+Obs.: Também é possível criar uma tag passando como parâmetro o commit que tag deve fazer referência
+    ```shell
+    git tag 0.1.0 master
+    ```
